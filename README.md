@@ -1,18 +1,20 @@
-Babel Es6 Class Import Export Demo
-==================================
+Babel-Node Use lodash-es Issue Demo
+===================================
 
 ```
 npm install
-npm start
+npm run demo
 ```
 
-Will print:
+Which reports error:
 
 ```
-Hello, Freewind
+babel-use-lodash-es-issue-demo/node_modules/lodash-es/upperCase.js:1
+(function (exports, require, module, __filename, __dirname) { import createCompounder from './_createCompounder.js';
+                                                                     ^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+
 ```
 
-Reference
-=========
-
-1. try babel online: <https://babeljs.io/repl/>
+Unable to fix it.

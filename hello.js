@@ -1,3 +1,3 @@
-import User from './user';
+import upperCase from 'lodash-es/upperCase'
 
-new User('Freewind').hello();
+console.log(upperCase('lodash-es'));
